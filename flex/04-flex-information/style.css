@@ -10,7 +10,31 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
 }
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  max-width: 200px;
+  text-align: center;
+
+  /* Instead of all this, just use max-width: 200px
+      and text-align: center; */
+  /* width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center; */
+}
+
 
 /* do not edit this footer */
 .footer {
